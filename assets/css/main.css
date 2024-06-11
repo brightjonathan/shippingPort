@@ -728,7 +728,9 @@ section,
   position: relative;
   inset: 0;
   z-index: 3;
-  padding: 140px 0 60px 0;
+  padding: 60px 10px 30px 10px;
+  background-color: rgb(10, 9, 10);
+  opacity: 80%;
 }
 
 @media (max-width: 768px),
@@ -816,7 +818,7 @@ section,
 
 .hero .carousel-item::before {
   content: "";
-  background-color: color-mix(in srgb, var(--background-color), transparent 60%);
+  background-color: color-mix(in srgb, var(--background-color), transparent 80%);
   position: absolute;
   inset: 0;
   z-index: 2;
